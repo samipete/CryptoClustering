@@ -14,7 +14,7 @@ Ploted a line chart with all the inertia values computed with the different valu
 Fit the K-means model using the original scaled DataFrame.
 Predicted the clusters to group the cryptocurrencies using the original scaled DataFrame. Created a copy of the original data and add a new column with the predicted clusters. Created a scatter plot using hvPlot.
 
-![scatter_od](images/OD_scatter.png)
+![scatter_od](Images/OD_scatter.png)
 
 **Part 3 - Optimize Clusters with Principal Component Analysis:** Using the original scaled DataFrame, performed a PCA and reduced the features to three principal components. Retrieved explained variance to determine how much information can be attributed to each principal component. Created a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 ![PCA_df](Images/PCA_df.png)
@@ -28,11 +28,13 @@ Predicted the clusters to group the cryptocurrencies using the original scaled D
 
 
 **Part 5 - Cluster Cryptocurrencies with K-means Using the PCA Data:** Clustered the cryptocurrencies for the best value for k on the PCA data. Created a copy of the DataFrame with the PCA data, and then add a new column to store the predicted clusters. Created a scatter plot using hvplot, setting x="PC1" and y="PC2". Colored the graph points with the labels that you found by using K-means. Added the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents.
-![pca_scatter](images/scatter_PCA.png)
+
+![pca_scatter](Images/scatter_PCA.png)
 
 
 
 **Final Analysis:** By looking at the elbow curves and scatter plots side-by-side, I answered the following quesiton
-![conclusion](images/final_conclusion.png)
+
+![conclusion](Images/final_conclusion.png)
 
 
