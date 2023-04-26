@@ -13,6 +13,7 @@ Ploted a line chart with all the inertia values computed with the different valu
 **Part 2 - Cluster Cryptocurrencies with K-means Using the Original Scaled Data:** Initialized the K-means model with the best value for k.
 Fit the K-means model using the original scaled DataFrame.
 Predicted the clusters to group the cryptocurrencies using the original scaled DataFrame. Created a copy of the original data and add a new column with the predicted clusters. Created a scatter plot using hvPlot.
+
 ![scatter_od](images/OD_scatter.png)
 
 **Part 3 - Optimize Clusters with Principal Component Analysis:** Using the original scaled DataFrame, performed a PCA and reduced the features to three principal components. Retrieved explained variance to determine how much information can be attributed to each principal component. Created a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
